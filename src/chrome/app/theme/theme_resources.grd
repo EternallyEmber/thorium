@@ -218,6 +218,11 @@
               <structure type="chrome_scaled_image" name="IDR_PRODUCT_THORIUM_GUY" file="chromium/thorium_guy.png" />
             </else>
           </if> <!-- _is_chrome_for_testing_branded -->
+          <structure type="chrome_scaled_image" name="IDR_PRODUCT_LOGO_NAME_22" file="chromium/product_logo_name_22.png" />
+          <structure type="chrome_scaled_image" name="IDR_PRODUCT_LOGO_NAME_22_WHITE" file="chromium/product_logo_name_22_white.png" />
+          <structure type="chrome_scaled_image" name="IDR_PRODUCT_MASCOT" file="chromium/thorium_mascot.png" />
+          <structure type="chrome_scaled_image" name="IDR_PRODUCT_NETERROR_FAVICON" file="chromium/dino_favicon.png" />
+          <structure type="chrome_scaled_image" name="IDR_PRODUCT_YIFF" file="chromium/yiff.png" />
         </else>
       </if> <!-- _google_chrome -->
       <if expr="not is_android">

@@ -546,9 +546,8 @@ std::string ChromeURLs(content::BrowserContext* browser_context) {
               ? base::StrCat({"<li><a href='", url, "/'>", url, "</a></li>\n"})
               : base::StrCat({"<li>", url, "</li>\n"});
     }
-
     html += "<li><a href='chrome://theme/IDR_PRODUCT_ROBOT'>chrome://robot</a></li>\n";
-
+    html += "<li><a href='chrome://theme/IDR_PRODUCT_YIFF'>chrome://yiff</a></li>\n";
     html +=
         "</ul><a id=\"internals\"><h2>List of chrome://internals "
         "pages</h2></a>\n<ul>\n";
